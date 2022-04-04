@@ -1,4 +1,18 @@
-#index{
+.wow{
   width: 100px;
-  height:  100px;
+}
+#heading{
+  text-align: center;
+  margin-top: 150px;
+}
+#para{
+  text-align: center;
+  font-size: 16pt;
+}
+#iBox{
+  margin-left: 500px;
+}
+#submit{
+  background-color: red;
+  color: white;
 }
