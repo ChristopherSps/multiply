@@ -1,4 +1,9 @@
-
+// Global Variables
+var x = 0;
+var y = 0;
+var product = 0;
+var min = 3;
+var max = 10;
 
 function display(){
 	// Creating Interface
@@ -31,16 +36,11 @@ function display(){
 	interface.appendChild(submitB);
 }
 
-// Global Variables
-var x = 0;
-var y = 0;
-var product = 0;
-var min = 3;
-var max = 10;
+
 
 function askQuestion(){
-	let x = Math.floor(Math.random()*10)+1;
-	let y = Math.floor(Math.random()*10)+1;
+	x = Math.floor(Math.random()*10)+1;
+	y = Math.floor(Math.random()*10)+1;
 	product = (x * y);
 	let question =  x+" X "+y+" = ?";
 	return question;

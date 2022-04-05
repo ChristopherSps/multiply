@@ -7,12 +7,19 @@
 }
 #para{
   text-align: center;
-  font-size: 16pt;
+  font-size: 20pt;
+  font-weight: bold;
 }
 #iBox{
-  margin-left: 500px;
+  display: block;
+  margin: auto;
+  height: 18px;
 }
 #submit{
   background-color: red;
   color: white;
+  border-radius: 25px;
+  padding: 5px;
+  display: block;
+  margin: 10px auto;
 }
